@@ -1,5 +1,9 @@
 # Astro Starter Kit: Minimal
 
+<img width="630" alt="Screenshot 2023-10-18 at 23 37 01" src="https://github.com/seba2020/astro-news/assets/14347649/b54be417-d656-46f4-a3d6-c1317dd81f8f">
+
+
+
 ```sh
 npm create astro@latest -- --template minimal
 ```
