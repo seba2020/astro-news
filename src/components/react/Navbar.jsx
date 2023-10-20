@@ -3,7 +3,7 @@ const Navbar = (props) => {
     <nav className="flex justify-between bg-[#BCA37F] p-5">
       <div>{props.title}</div>
       <div className="flex gap-3">
-        <a className="text-white" href="#">
+        <a className="text-white" href="/">
           Home
         </a>
         <a className="text-white" href="/about">

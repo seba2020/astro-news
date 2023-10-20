@@ -1,22 +1,8 @@
 ---
-import Navbar from "../components/react/Navbar.jsx";
 import News from "../components/svelte/News.svelte";
+import Layout from "../layouts/Layout.astro";
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>Astro</title>
-  </head>
-  <body class="bg-[#FFF2D8]">
-    <Navbar>
-      <a slot="title" class="navbar-brand text-white font-bold" href="#">
-        News
-      </a>
-    </Navbar>
-    <News client:load />
-  </body>
-</html>
+<Layout>
+  <News client:load />
+</Layout>
